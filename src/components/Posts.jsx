@@ -65,7 +65,6 @@ export default function Posts() {
     }, []);
 
 
-
     return (
         <Container fluid={"md"}>
             <FormControl
@@ -120,7 +119,8 @@ export default function Posts() {
         </Container>
     );
 }
+
 const Paragraph = styled.p`
-      font-size: 17px;
-      font-weight: bold;
-    `;
+  font-size: 17px;
+  font-weight: bold;
+`;

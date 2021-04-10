@@ -1,7 +1,3 @@
-READ THIS BEFORE STARTING!!!
-TO RUN THE APP USE 'npm install' after downloading the repository!!
-THEN USE 'npm start' to open project in your browser.
------------------------------------------------------------------
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
