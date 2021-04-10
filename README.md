@@ -1,8 +1,3 @@
-RUN npm install after downloading the project from github
-Then run npm start to open the project in your web-browser
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

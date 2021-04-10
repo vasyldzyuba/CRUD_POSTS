@@ -144,9 +144,9 @@ export default function PostDetails({match}) {
         <Dropdown.Divider/>
         <Paragraph>Comments: ({comments.length})</Paragraph>
         <div>{comments.map((comment, index) => {
-            return (<Comment key={index}><User
+            return (<Comment key={index}><UserName>John Doe</UserName><User
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/1024px-User_icon_2.svg.png"
-                alt="user"/>{comment.body}</Comment>)
+                alt="user"/> {comment.body}</Comment>)
         })}</div>
         <Form>
             <Form.Group controlId="formBasicPassword">
@@ -172,6 +172,7 @@ const Paragraph = styled.p`
 const Comment = styled.p`
   font-size: 17px;
   font-weight: bold;
+  border-top: 1px solid #d6d5d5;
   border-bottom: 1px solid #d6d5d5;
   padding-left: 10px;
 `;
@@ -180,4 +181,9 @@ const User = styled.img`
   width: 40px;
   height: 40px;
   margin-left: 10px;
-`
+`;
+
+const UserName = styled.p`
+  font-weight: lighter;
+  font-family: cursive;
+`;
